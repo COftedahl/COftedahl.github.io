@@ -1,0 +1,32 @@
+/* styles.css
+ * stylesheet for team website
+ */
+
+.Accordion_ItemDiv {
+  border-radius: var(--standardBorderRadius);
+  background-color: var(--color_1);
+  color: var(--color_1_textContrast);
+  border: var(--standardBorder);
+  margin: var(--standardPadding);
+}
+
+.Accordion_Item_HeaderDiv {
+  padding: var(--standardPadding);
+  cursor: pointer;
+}
+
+.Accordion_Item_Header_Text {
+  font-size: 1.4rem;
+}
+
+.Accordion_Item_DetailsDiv {
+  max-height: var(--accordionMaxHeight);
+  overflow: hidden;
+  transition: var(--transitionDuration) var(--transitionTimingFunction) max-height;
+}
+
+.Accordion_Item_DetailsDiv-collapsed {
+  max-height: 0px;
+  overflow: hidden;
+  transition: var(--transitionDuration) var(--transitionTimingFunction) max-height;
+}
