@@ -20,6 +20,7 @@
 }
 
 .Accordion_Item_DetailsDiv {
+  padding: 0rem 1rem;
   max-height: var(--accordionMaxHeight);
   overflow: hidden;
   transition: var(--transitionDuration) var(--transitionTimingFunction) max-height;
